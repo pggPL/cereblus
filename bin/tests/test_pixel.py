@@ -1,5 +1,4 @@
-from ..bin.stimulation.pixel import Pixel
-from ..bin.stimulation import Stimulation
+from ..cereblus.stimulation import Stimulation
 
 def test_pixel_1():
     s = Stimulation(2)

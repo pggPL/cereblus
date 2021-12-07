@@ -1,11 +1,10 @@
-import datetime
 import math
 
 import pytest
 
-from ..bin.network import NeuralNetwork, NonPositiveInterval
-from ..bin.neuron import Neuron
-from hypothesis import given, note, example, settings, strategies as st
+from ..cereblus.network import NeuralNetwork, NonPositiveInterval
+from ..cereblus.neuron import Neuron
+from hypothesis import given, settings, strategies as st
 
 
 def test_new_neuron_susbscription():

@@ -1,7 +1,7 @@
-from ..bin.network import NeuralNetwork, NonPositiveInterval
-from ..bin.neuron import Neuron
-from ..bin.stimulation import Stimulation, StimulationLoader, WrongImageLength, NeuronNotReceptive
-from ..bin.neurons.receptor import Receptor
+from bin.cereblus.network import NeuralNetwork
+from ..cereblus.neuron import Neuron
+from ..cereblus.stimulation import Stimulation, StimulationLoader, WrongImageLength, NeuronNotReceptive
+from ..cereblus.neurons.receptor import Receptor
 
 import pytest
 
@@ -29,7 +29,7 @@ def test_load_from_file():
     for i in range(5):
         neurons.append(neu_net.neuron(template=Receptor))
 
-    stimulation = StimulationLoader.load_from_file("./tests/test_stimulations/test_stimulation1.json")
+    stimulation = StimulationLoader.load_from_file("./bin/tests/test_stimulations/test_stimulation1.json")
 
     for i in range(5):
         stimulation.connect(num_of_pixel=i, neuron=neurons[i])
@@ -76,7 +76,7 @@ def test_one_neuron_connection():
 
 def test_too_long_phase():
     with pytest.raises(WrongImageLength):
-        stimulation = StimulationLoader.load_from_file("./tests/test_stimulations/test_stimulation2.json")
+        stimulation = StimulationLoader.load_from_file("./bin/tests/test_stimulations/test_stimulation2.json")
 
 
 def test_connecting_non_receptive_neuron():

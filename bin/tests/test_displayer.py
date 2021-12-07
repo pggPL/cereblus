@@ -1,5 +1,5 @@
-from ..bin.network import NeuralNetwork
-from ..bin.displayer import Displayer
+from ..cereblus.network import NeuralNetwork
+from ..cereblus.displayer import Displayer
 
 class CanvasTest:
     def create_oval(self, *args, **kargs):

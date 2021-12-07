@@ -58,7 +58,6 @@ class NeuronGraphics:
         return "#%02x%02x%02x" % rgb
 
     def draw_active(self, activation_ratio):
-        print(activation_ratio)
         self.graphical_representation = self.create_circle(self.x,
                                                            self.y,
                                                            self.size,

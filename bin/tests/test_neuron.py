@@ -1,4 +1,4 @@
-from ..bin.neuron import Neuron, AlreadyConnected
+from ..cereblus.neuron import Neuron, AlreadyConnected
 import pytest
 
 
