@@ -1,4 +1,4 @@
-from ..cereblus.stimulation import Stimulation
+from bin.cereblus.stimulation import Stimulation
 
 def test_pixel_1():
     s = Stimulation(2)

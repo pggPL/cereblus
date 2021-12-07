@@ -2,8 +2,8 @@ import math
 
 import pytest
 
-from ..cereblus.network import NeuralNetwork, NonPositiveInterval
-from ..cereblus.neuron import Neuron
+from bin.cereblus.network import NeuralNetwork, NonPositiveInterval
+from bin.cereblus.neuron import Neuron
 from hypothesis import given, settings, strategies as st
 
 
