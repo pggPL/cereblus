@@ -46,7 +46,7 @@ displayer = Displayer(neu_net)
 displayer.show()
 ```
 
-!(https://github.com/pggPL/cereblus/raw/master/img/from_readme_1.gif)
+![](https://github.com/pggPL/cereblus/raw/master/img/from_readme_1.gif)
 
 ### Stimulating neurons
 
@@ -76,7 +76,7 @@ We can imagine it as two receptors connected to the two pixels. Pixel is active 
 
 Now let's look on our network.
 
-!(https://github.com/pggPL/cereblus/raw/master/img/from_readme_1.gif)
+![](https://github.com/pggPL/cereblus/raw/master/img/from_readme_1.gif)
 
 # Steps further
 
