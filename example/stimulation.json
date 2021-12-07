@@ -1,0 +1,9 @@
+  {
+  "num_of_pixels": 2,
+  "loop": true,
+  "phases": [
+    [0.5, "O-"],
+    [0.5, "-O"],
+    [1, "OO"]
+  ]
+}

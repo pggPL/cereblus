@@ -5,7 +5,7 @@ import math
 
 neu_net = LateralInhibitionNetwork()
 
-s = StimulationLoader.load_from_file("./stimulations/lateral_inhibition_example.json")
+s = StimulationLoader.load_from_file("./lateral_inhibition_example.json")
 i = 0
 for receptor in neu_net.neurons_receptors:
     s.connect(receptor, math.floor(i/ 2))
