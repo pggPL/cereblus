@@ -46,7 +46,7 @@ displayer = Displayer(neu_net)
 displayer.show()
 ```
 
-![](https://github.com/pggPL/cereblus/raw/master/img/from_readme_1.gif)
+![](https://github.com/pggPL/cereblus/raw/master/img/from_readme_2.gif)
 
 ### Stimulating neurons
 
